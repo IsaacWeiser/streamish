@@ -5,7 +5,10 @@ VisualStudioVersion = 17.1.32328.378
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Streamish", "Streamish\Streamish.csproj", "{1770DAF0-7F57-4149-A8EA-1A44D9BFF224}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strreamish.test", "Strreamish.test\Strreamish.test.csproj", "{187C6351-5B95-4385-8259-1DFBEAA766FF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Streamish.test", "Streamish.test\Streamish.test.csproj", "{129926CB-143D-4E40-93BD-0EF74D4EA735}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1770DAF0-7F57-4149-A8EA-1A44D9BFF224} = {1770DAF0-7F57-4149-A8EA-1A44D9BFF224}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +20,10 @@ Global
 		{1770DAF0-7F57-4149-A8EA-1A44D9BFF224}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1770DAF0-7F57-4149-A8EA-1A44D9BFF224}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1770DAF0-7F57-4149-A8EA-1A44D9BFF224}.Release|Any CPU.Build.0 = Release|Any CPU
-		{187C6351-5B95-4385-8259-1DFBEAA766FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{187C6351-5B95-4385-8259-1DFBEAA766FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{187C6351-5B95-4385-8259-1DFBEAA766FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{187C6351-5B95-4385-8259-1DFBEAA766FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{129926CB-143D-4E40-93BD-0EF74D4EA735}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{129926CB-143D-4E40-93BD-0EF74D4EA735}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{129926CB-143D-4E40-93BD-0EF74D4EA735}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{129926CB-143D-4E40-93BD-0EF74D4EA735}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
